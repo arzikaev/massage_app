@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Clients from '../views/ClientAdd.vue'
 
 Vue.use(VueRouter)
 
@@ -10,11 +9,6 @@ const routes = [
     path: '/calendar',
     name: 'Home',
     component: Home
-  },
-  {
-    path: '/clientsadd',
-    name: 'Clients',
-    component: Clients
   },
   {
     path: '/clients',
